@@ -1,1 +1,2 @@
 belajar git add
+"Ini tugas untuk fitur 2"
