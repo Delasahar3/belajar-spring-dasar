@@ -1,2 +1,2 @@
 belajar git add
-"Baris tambahan untuk fitur 1"
+Baris tambahan untuk fitur 1
