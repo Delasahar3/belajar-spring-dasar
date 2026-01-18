@@ -1,4 +1,8 @@
 Menambah file3.txt
 Menambah baris di file3.txt
 belajar gitclear
+<<<<<<< HEAD
 belajar merge
+=======
+"Menambah fungsi untuk fitur 1"
+>>>>>>> feature/1
