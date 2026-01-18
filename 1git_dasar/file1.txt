@@ -1,7 +1,2 @@
 belajar git add
-<<<<<<< HEAD
-Baris tambahan untuk fitur 1
-=======
-"Ini tugas untuk fitur 2"
-"Accept Both Changes"
->>>>>>> feature/2
+Accept Both Changes
