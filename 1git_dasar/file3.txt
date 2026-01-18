@@ -1,4 +1,4 @@
 Menambah file3.txt
 Menambah baris di file3.txt
 belajar gitclear
-belajar megre
+belajar merge
