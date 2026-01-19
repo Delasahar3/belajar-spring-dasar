@@ -1,19 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 Menambah baris di file4.txt
 Feature 1
 Feature A
 Feature B
-<<<<<<< HEAD
-Belajar Git
-
-=======
-Latihan git 4
->>>>>>> 7412de7 (feature 4)
-=======
-Latihan git 4
->>>>>>> 7412de7 (feature 4)
-=======
-Belajar Git
->>>>>>> fa36af0 (Feature C)
