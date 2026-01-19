@@ -1,2 +1,1 @@
-Latihan git 2
-latihan 3
+Belajar git

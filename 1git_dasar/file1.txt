@@ -1,7 +1,7 @@
 belajar git add
 <<<<<<< HEAD
-Accept Both Changes
+Feature A
 =======
-ini adalah teks untuk fitur 4
->>>>>>> feature/4
+Feature B
+>>>>>>> feature/b
 Accept Both Changes
