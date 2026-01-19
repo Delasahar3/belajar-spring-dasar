@@ -1,1 +1,4 @@
-Latihan git 4
+Menambah baris di file4.txt
+Feature 1
+Feature A
+Feature B
