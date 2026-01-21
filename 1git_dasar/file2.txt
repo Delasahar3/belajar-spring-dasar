@@ -1,2 +1,4 @@
-Belajar git
+Feature Merge Squash
 "Belajar git master"
+belajae
+belajar
