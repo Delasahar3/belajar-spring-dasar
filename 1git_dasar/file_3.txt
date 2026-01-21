@@ -1,12 +1,11 @@
 Latihan git 3
-<<<<<<< HEAD
-
 Menambah file3.txt
 Menambah baris di file3.txt
 Feature 2
 Feature A
 Feature C
 Feature D
-=======
+
+
 Feature Rebase Baru
->>>>>>> e7e3548 (feature rebase file3.txt)
+Feature rebase sedang dikerjakan
