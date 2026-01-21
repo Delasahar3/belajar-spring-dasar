@@ -1,5 +1,4 @@
 Latihan git 3
-
 Menambah file3.txt
 Menambah baris di file3.txt
 Feature 2
@@ -7,4 +6,10 @@ Feature A
 Feature C
 Feature D
 
+<<<<<<< HEAD
 rebase
+=======
+
+Feature Rebase Baru
+Feature rebase sedang dikerjakan
+>>>>>>> feature/rebase
