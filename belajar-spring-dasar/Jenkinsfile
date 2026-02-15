@@ -1,26 +1,16 @@
 pipeline {
     agent any
+
     stages {
-        stage('Checkout') {
+        stage('Welcome') {
             steps {
-                echo 'Mengambil kode dari GitHub...'
+                echo 'Memulai Pipeline...'
             }
         }
-        stage('Build') {
+        stage('Hello') {
             steps {
-                echo 'Sedang mengompilasi aplikasi di dalam folder proyek...'
-                // Pindah folder (dir) terlebih dahulu sebelum menjalankan mvnw
-                dir('belajar-spring-dasar') {
-                    bat 'mvnw.cmd clean compile'
-                }
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Sedang menjalankan unit testing...'
-                dir('belajar-spring-dasar') {
-                    bat 'mvnw.cmd test'
-                }
+                // Baris ini akan mencetak teks yang Anda inginkan di console
+                echo 'Hello World'
             }
         }
     }
