@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                echo 'Mengambil kode dari GitHub...'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Sedang Build Aplikasi...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Sedang Menjalankan Test...'
+            }
+        }
+    }
+}
