@@ -1,15 +1,11 @@
 pipeline {
-    agent any
+    // GANTI baris label 'Ubuntu' menjadi ini:
+    agent any 
 
     stages {
-        stage('Welcome') {
-            steps {
-                echo 'Memulai Pipeline...'
-            }
-        }
         stage('Hello') {
             steps {
-                // Baris ini akan mencetak teks yang Anda inginkan di console
+                // Ini yang akan memunculkan tulisan yang Anda mau
                 echo 'Hello World'
             }
         }
