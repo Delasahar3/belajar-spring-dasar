@@ -1,34 +1,26 @@
 pipeline {
     agent any
-
     stages {
         stage('Checkout') {
             steps {
                 echo 'Mengambil kode dari GitHub...'
-                // Jenkins otomatis melakukan checkout berdasarkan konfigurasi SCM Anda
             }
         }
-
-        stage('List Files') {
-            steps {
-                echo 'Memeriksa struktur folder proyek:'
-                // Perintah untuk melihat apakah pom.xml dan folder src sudah ada
-                bat 'dir' 
-            }
-        }
-
         stage('Build') {
             steps {
-                echo 'Sedang mengompilasi aplikasi menggunakan Maven...'
-                // Menggunakan mvnw (Maven Wrapper) yang ada di folder Anda
-                bat 'mvnw clean compile'
+                echo 'Sedang mengompilasi aplikasi di dalam folder proyek...'
+                // Pindah folder (dir) terlebih dahulu sebelum menjalankan mvnw
+                dir('belajar-spring-dasar') {
+                    bat 'mvnw.cmd clean compile'
+                }
             }
         }
-
         stage('Test') {
             steps {
                 echo 'Sedang menjalankan unit testing...'
-                bat 'mvnw test'
+                dir('belajar-spring-dasar') {
+                    bat 'mvnw.cmd test'
+                }
             }
         }
     }
